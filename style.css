@@ -179,3 +179,69 @@ footer {
     box-shadow: 3px 3px 7px rgb(10,10,10);
     text-align: center;
 }
+.noborder {
+    border-width: 0px;
+}
+.noborder:hover {
+    border-width: 2px;
+    border-color: rgb(100%,3%,5%);
+}
+#about {
+    background: #aaffca;
+}
+#desc {
+    background: #47dc03;
+    padding: 25px 25px 20px 25px;
+    margin: 30px 7px 30px 7px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: rgb(100%,100%,100%);
+    box-shadow: 8px -9px 5px #bfffbf;
+}
+#mypic {
+    border-radius: 50%;
+}
+.headabout {
+    color: red;
+    background: #aaffca;
+    box-shadow: 0px 0px 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: rgb(100%,100%,100%);
+}
+#par1 {
+    margin-bottom: 20%;
+    font-family: arial;
+}
+.social {
+    background: rgb(100%,100%,100%);
+}
+.wa, .fb {
+    text-decoration: none;
+    color: rgb(0%,0%,0%);
+    font-size: 20px;
+}
+.fb {
+    margin-right: 70px;
+}
+.fb:hover {
+    color: rgb(100%,100%,100%);
+    background: rgb(0%,0%,100%);
+    border-radius: 12px;
+    padding: 8px 15px 8px 15px;
+}
+.wa:hover {
+    color: rgb(100%,100%,100%);
+    background: rgb(0%,100%,0%);
+    border-radius: 12px;
+    padding: 8px 15px 8px 15px;
+}
+.arrow {
+    color: rgb(100%,100%,100%);
+    font-size: 18px;
+}
+.arrow:hover {
+    font-size: 25px;
+}
